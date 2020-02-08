@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	section {display: flex;}
+	#sec1>div{flex: 1;}
+	#sec1>div>h1{color: red;
+		text transform: uppercase;
+		font-size: 29px;}
+		#sec1>div>p{text-align: right;
+			font-size:20px;color: blue }
+
+		#sec2>div{flex: 1;}
+		#sec2{
+			width: 100%;
+			height: 500px;
+			background-image:url("Budhdha.jpg");
+		background-size: 100% }
+		#sec2>div>div{
+			width: 200px;
+			height:200px;
+			padding: 100px;
+			background-color: rgba(140,203,0,0.3);
+			border-radius: 50%;
+			color: white;
+			font-size: 20px; 
+
+		}	
+		#sec2>div>form{
+			background-color: orange;
+			width: 225px;
+			padding: 40px;
+			margin-top: 35px;
+		}
+		#sec2>div>form>input,select{
+			width: 100%;
+			padding: 7px;
+			margin-bottom: 8px;
+		}
+		input[type="submit"]{
+			background-color: blue;
+			border-radius: 40px;
+			color: white;
+			font-size: 20px;
+		}
+		.hh{text-align: center;
+			font-size: 39px;
+			text-transform: uppercase;
+		}
+		#sec3>div>p,h4{
+			padding: 15px 50px;
+			font-size: 22px;
+		}
+		#gray{background-color: lightgray;}
+		#gray>h1{text-align: center;}
+		#sec4>div{margin: 30px }
+		#sec4>div>img{border: 6px solid white;}
+			#sec5>{padding: 60px;}
+			#sec5>div{padding: 13px}
+			#sec5>div>h6{color: red;
+				font-size: 20px;}
+			</style>
+		}
+		}		
+</head>
+<body>
+	<section id="sec1">
+		
+		<div>
+			<h1>Travel Agency</h1>
+		</div>
+		<div>
+			<p>Contact No : 800-542-4581</p>
+		</div>
+	</section>
+
+	<section id="sec2">
+		<div>
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				
+			</div>
+		</div>
+		<div>
+			<form>
+				<h1>Free Travel Guide</h1>
+				<label> Nmae</label><br>
+				<input type="email"name="email"><br>
+
+				<label> Email Id</label><br>
+				<input type="email"name="email"><br>
+
+				<label>Phone No</label><br>
+				<input type="tel" name="email"><br>
+
+				<label>Most intrested in</label><br>
+				<select>
+					<option>Please select</option><br>
+					<option>Mumbai</option><br>
+					<option>Pune</option><br>
+					<option>Matheran</option><br>
+				</select>
+				<br>
+				<input type="Submit" name="GET THE GUIDE">
+			</form>
+		</div>
+		
+
+	</section>
+<h1 class="hh">There are planty of places that are worth seeing</h1>
+<section id="sec3">
+	
+	<div>
+			<img src="ghar.jpg" width="300%";height="400">
+	</div>
+	<div>
+		<h4>Heading</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</section>
+<div id="grey">
+	<h1>This weeks Offers:</h1>
+	<section id="sec4">
+		<div>
+			<img src="ghar.jpg" width="100%">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. </p>
+		</div>
+		<div><img src="ghar.jpg" width="100%">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. </p>
+		</div>
+		<div>
+			<img src="ghar.jpg" width="100%">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. </p>
+		</div>
+	</section>
+</div>
+<section id="sec5">
+	<div>
+		<img src="ghar.jpg" width="100%">
+	</div>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. </p>
+			<h6>Tim Cook</h6>
+	</div>
+	<div>
+		<img src="ghar.jpg" width="100%">
+	</div>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. </p>
+			<h6>Tim Cook</h6>
+	</div>
+</section>
+</body>
+</html>
